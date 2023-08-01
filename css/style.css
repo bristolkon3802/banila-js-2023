@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+}
+input {
+  all: unset;
+  border-bottom: 2px solid white;
+  text-align: center;
+}
+input::placeholder {
+  color: white;
+  margin: 0 auto;
+}
+button {
+  all: unset;
+  width: 30px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+.weather {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  font-weight: 600;
+}
+.weather span:last-child {
+  padding-left: 10px;
+}
+.quote {
+  font-size: 16px;
+  font-weight: 600;
+}
+.google-form__input {
+  margin-bottom: 10px;
+}
+main {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.login__input {
+  font-size: 36px;
+  width: 350px;
+}
+
+.clock {
+  font-size: 170px;
+  text-align: center;
+}
+
+.grreeting {
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.todo-memo {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.todo-memo__input {
+  font-size: 20px;
+}
+
+.todo-memo__list {
+  width: 300px;
+  margin: 0 auto;
+}
+.todo-memo ul li:first-child {
+  padding-top: 30px;
+}
+.todo-memo ul li {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 10px 0px;
+}
