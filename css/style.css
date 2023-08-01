@@ -62,6 +62,11 @@ button {
 .google-form__input {
   margin-bottom: 10px;
 }
+.google-form__input,
+.naver-form__input {
+  border: none;
+  text-align: start;
+}
 main {
   margin: 0 auto;
   justify-content: center;
